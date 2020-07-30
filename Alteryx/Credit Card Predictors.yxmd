@@ -1,0 +1,296 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="150" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data Set.xlsx
+Query=`customer_dbase$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="custid" size="255" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="region" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="townsize" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="gender" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="age" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="agecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="birthmonth" size="255" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ed" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="edcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="jobcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="union" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="employ" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="empcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="retire" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="income" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lninc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="inccat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="debtinc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="creddebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lncreddebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="othdebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnothdebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="default" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="jobsat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="marital" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="spoused" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="spousedcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="reside" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_cats" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_dogs" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_birds" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_reptiles" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_small" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_saltfish" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_freshfish" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="homeown" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="hometype" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="address" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="addresscat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cars" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carown" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cartype" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carvalue" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carcatvalue" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carbought" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carbuy" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commute" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutetime" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutecar" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutemotorcycle" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutecarpool" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutebus" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commuterail" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutepublic" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutebike" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutewalk" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutenonmotor" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="telecommute" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="reason" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="polview" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="polparty" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="polcontrib" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="vote" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardtype" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardbenefit" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardfee" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardtenure" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardtenurecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2type" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2benefit" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2fee" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2tenure" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2tenurecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardspent" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2spent" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="active" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="bfast" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tenure" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="churn" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="longmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnlongmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="longten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnlongten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollfree" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lntollmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lntollten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equip" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equipmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnequipmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equipten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnequipten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="callcard" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lncardmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lncardten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="wireless" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="wiremon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnwiremon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="wireten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnwireten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="multline" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="voice" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pager" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="internet" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="callid" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="callwait" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="forward" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="confer" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ebill" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owntv" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="hourstv" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownvcr" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owndvd" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owncd" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownpda" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownpc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownipod" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owngame" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownfax" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="news" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="response_01" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="response_02" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="response_03" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="282" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">custid=False,region=True,townsize=True,gender=True,age=True,agecat=True,birthmonth=True,ed=True,edcat=True,jobcat=True,union=True,employ=True,empcat=True,retire=True,income=True,lninc=True,inccat=True,debtinc=True,creddebt=True,lncreddebt=True,othdebt=True,lnothdebt=True,default=True,jobsat=True,marital=True,spoused=True,spousedcat=True,reside=True,pets=True,pets_cats=True,pets_dogs=True,pets_birds=True,pets_reptiles=True,pets_small=True,pets_saltfish=True,pets_freshfish=True,homeown=True,hometype=True,address=True,addresscat=True,cars=True,carown=True,cartype=True,carvalue=True,carcatvalue=True,carbought=True,carbuy=True,commute=True,commutecat=True,commutetime=True,commutecar=True,commutemotorcycle=True,commutecarpool=True,commutebus=True,commuterail=True,commutepublic=True,commutebike=True,commutewalk=True,commutenonmotor=True,telecommute=True,reason=True,polview=True,polparty=True,polcontrib=True,vote=True,card=True,cardtype=True,cardbenefit=True,cardfee=True,cardtenure=True,cardtenurecat=True,card2=True,card2type=True,card2benefit=True,card2fee=True,card2tenure=True,card2tenurecat=True,cardspent=True,card2spent=True,active=True,bfast=True,tenure=True,churn=True,longmon=True,lnlongmon=True,longten=True,lnlongten=True,tollfree=True,tollmon=True,lntollmon=True,tollten=True,lntollten=True,equip=True,equipmon=True,lnequipmon=True,equipten=True,lnequipten=True,callcard=True,cardmon=True,lncardmon=True,cardten=True,lncardten=True,wireless=True,wiremon=True,lnwiremon=True,wireten=True,lnwireten=True,multline=True,voice=True,pager=True,internet=True,callid=True,callwait=True,forward=True,confer=True,ebill=True,owntv=True,hourstv=True,ownvcr=True,owndvd=True,owncd=True,ownpda=True,ownpc=True,ownipod=True,owngame=True,ownfax=True,news=True,response_01=True,response_02=True,response_03=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_8396_661e41986be346e9869cd35f51c02b2f_\Engine_11492_3fa537be75ef45a68b271814dd7a2934_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="378" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_8396_661e41986be346e9869cd35f51c02b2f_\Engine_11492_e29e9eb630ee43af99648efbfe5813a5_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Interactive" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Credit Card Predictors</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

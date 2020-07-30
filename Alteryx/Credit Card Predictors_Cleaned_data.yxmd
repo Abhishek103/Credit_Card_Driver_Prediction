@@ -1,0 +1,757 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Data Set.xlsx
+Query=`customer_dbase$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="custid" size="255" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="region" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="townsize" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="gender" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="age" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="agecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="birthmonth" size="255" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ed" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="edcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="jobcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="union" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="employ" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="empcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="retire" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="income" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lninc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="inccat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="debtinc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="creddebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lncreddebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="othdebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnothdebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="default" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="jobsat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="marital" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="spoused" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="spousedcat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="reside" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_cats" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_dogs" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_birds" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_reptiles" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_small" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_saltfish" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_freshfish" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="homeown" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="hometype" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="address" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="addresscat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cars" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carown" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cartype" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carvalue" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carcatvalue" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carbought" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="carbuy" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commute" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutetime" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutecar" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutemotorcycle" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutecarpool" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutebus" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commuterail" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutepublic" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutebike" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutewalk" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutenonmotor" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="telecommute" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="reason" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="polview" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="polparty" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="polcontrib" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="vote" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardtype" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardbenefit" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardfee" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardtenure" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardtenurecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2type" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2benefit" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2fee" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2tenure" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2tenurecat" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardspent" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2spent" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="active" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="bfast" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tenure" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="churn" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="longmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnlongmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="longten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnlongten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollfree" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lntollmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lntollten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equip" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equipmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnequipmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equipten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnequipten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="callcard" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lncardmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lncardten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="wireless" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="wiremon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnwiremon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="wireten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnwireten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="multline" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="voice" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pager" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="internet" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="callid" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="callwait" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="forward" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="confer" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ebill" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owntv" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="hourstv" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownvcr" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owndvd" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owncd" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownpda" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownpc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownipod" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owngame" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ownfax" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="news" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="response_01" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="response_02" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="response_03" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings>
+        <Position x="318" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">active=True,address=True,addresscat=True,age=True,agecat=True,bfast=True,birthmonth=True,callcard=True,callid=True,callwait=True,carbought=True,carbuy=True,carcatvalue=True,card=True,card2=True,card2benefit=True,card2fee=True,card2spent=True,card2tenure=True,card2tenurecat=True,card2type=True,cardbenefit=True,cardfee=True,cardmon=True,cardspent=True,cardten=True,cardtenure=True,cardtenurecat=True,cardtype=True,carown=True,cars=True,cartype=True,carvalue=True,churn=True,commute=True,commutebike=True,commutebus=True,commutecar=True,commutecarpool=True,commutecat=True,commutemotorcycle=True,commutenonmotor=True,commutepublic=True,commuterail=True,commutetime=True,commutewalk=True,confer=True,creddebt=True,debtinc=True,default=True,ebill=True,ed=True,edcat=True,empcat=True,employ=True,equip=True,equipmon=True,equipten=True,forward=True,gender=True,homeown=True,hometype=True,hourstv=True,inccat=True,income=True,internet=True,jobcat=True,jobsat=True,lncardmon=True,lncardten=True,lncreddebt=True,lnequipmon=True,lnequipten=True,lninc=True,lnlongmon=True,lnlongten=True,lnothdebt=True,lntollmon=True,lntollten=True,lnwiremon=True,lnwireten=True,longmon=True,longten=True,marital=True,multline=True,news=True,othdebt=True,owncd=True,owndvd=True,ownfax=True,owngame=True,ownipod=True,ownpc=True,ownpda=True,owntv=True,ownvcr=True,pager=True,pets=True,pets_birds=True,pets_cats=True,pets_dogs=True,pets_freshfish=True,pets_reptiles=True,pets_saltfish=True,pets_small=True,polcontrib=True,polparty=True,polview=True,reason=True,region=True,reside=True,response_01=True,response_02=True,response_03=True,retire=True,spoused=True,spousedcat=True,telecommute=True,tenure=True,tollfree=True,tollmon=True,tollten=True,total_spend=False,townsize=True,union=True,voice=True,vote=True,wireless=True,wiremon=True,wireten=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_5916_1bd786d721d84dfcad745590639789e9_\Engine_5480_0872ab3456744068bc10c37546b97549_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="450" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_5916_1bd786d721d84dfcad745590639789e9_\Engine_5480_05470891e37d4acd9939b0607c817a9d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="162" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="[cardspent] + [card2spent]" field="total_spend" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[total_spend = [cardspent] + [card2spent]
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_5916_1bd786d721d84dfcad745590639789e9_\Engine_5480_deaba39853b34f6a96ce787a2759af30_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="354" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="do target">True</Value>
+          <Value name="target">total_spend</Value>
+          <Value name="target level" />
+          <Value name="use fields">"age","ed","employ","income","lninc","debtinc","creddebt","lncreddebt","othdebt","lnothdebt","spoused","reside","pets","pets_cats","pets_dogs","pets_birds","pets_reptiles","pets_small","pets_saltfish","pets_freshfish","carvalue","commutetime","cardspent","card2spent","tenure","churn","longmon","lnlongmon","longten","lnlongten","tollmon","lntollmon","tollten","lntollten","equipmon","lnequipmon","equipten","lnequipten","cardmon","lncardmon","cardten","lncardten","wiremon","lnwiremon","wireten","lnwireten","hourstv","total_spend"</Value>
+          <Value name="Pearson">False</Value>
+          <Value name="Spearman">True</Value>
+          <Value name="Hoeffding">False</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Association_Analysis.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="522" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_5916_1bd786d721d84dfcad745590639789e9_\Engine_5480_2f85b6f12c2648bfa4dd57ac13758523_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="258" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="active" selected="True" type="V_String" size="19" />
+            <SelectField field="address" selected="True" type="V_String" size="19" />
+            <SelectField field="addresscat" selected="True" type="V_String" size="19" />
+            <SelectField field="age" selected="True" />
+            <SelectField field="agecat" selected="True" type="V_String" size="19" />
+            <SelectField field="bfast" selected="True" type="V_String" size="19" />
+            <SelectField field="birthmonth" selected="True" />
+            <SelectField field="callcard" selected="True" type="V_String" size="19" />
+            <SelectField field="callid" selected="True" type="V_String" size="19" />
+            <SelectField field="callwait" selected="True" type="V_String" size="19" />
+            <SelectField field="carbought" selected="True" type="V_String" size="19" />
+            <SelectField field="carbuy" selected="True" type="V_WString" size="19" />
+            <SelectField field="carcatvalue" selected="True" type="V_String" size="19" />
+            <SelectField field="card" selected="True" type="V_String" size="19" />
+            <SelectField field="card2" selected="True" type="V_String" size="19" />
+            <SelectField field="card2benefit" selected="True" type="V_String" size="19" />
+            <SelectField field="card2fee" selected="True" type="V_String" size="19" />
+            <SelectField field="card2spent" selected="True" />
+            <SelectField field="card2tenure" selected="True" type="V_String" size="19" />
+            <SelectField field="card2tenurecat" selected="True" type="V_String" size="19" />
+            <SelectField field="card2type" selected="True" type="V_String" size="19" />
+            <SelectField field="cardbenefit" selected="True" type="V_String" size="19" />
+            <SelectField field="cardfee" selected="True" type="V_String" size="19" />
+            <SelectField field="cardmon" selected="True" />
+            <SelectField field="cardspent" selected="True" />
+            <SelectField field="cardten" selected="True" />
+            <SelectField field="cardtenure" selected="True" type="V_String" size="19" />
+            <SelectField field="cardtenurecat" selected="True" type="V_String" size="19" />
+            <SelectField field="cardtype" selected="True" type="V_String" size="19" />
+            <SelectField field="carown" selected="True" type="V_String" size="19" />
+            <SelectField field="cars" selected="True" type="V_String" size="19" />
+            <SelectField field="cartype" selected="True" type="V_String" size="19" />
+            <SelectField field="carvalue" selected="True" />
+            <SelectField field="churn" selected="True" type="V_String" size="19" />
+            <SelectField field="commute" selected="True" type="V_String" size="19" />
+            <SelectField field="commutebike" selected="True" type="V_String" size="19" />
+            <SelectField field="commutebus" selected="True" type="V_String" size="19" />
+            <SelectField field="commutecar" selected="True" type="V_String" size="19" />
+            <SelectField field="commutecarpool" selected="True" type="V_String" size="19" />
+            <SelectField field="commutecat" selected="True" type="V_String" size="19" />
+            <SelectField field="commutemotorcycle" selected="True" type="V_String" size="19" />
+            <SelectField field="commutenonmotor" selected="True" type="V_String" size="19" />
+            <SelectField field="commutepublic" selected="True" type="V_String" size="19" />
+            <SelectField field="commuterail" selected="True" type="V_String" size="19" />
+            <SelectField field="commutetime" selected="True" />
+            <SelectField field="commutewalk" selected="True" type="V_String" size="19" />
+            <SelectField field="confer" selected="True" type="V_String" size="19" />
+            <SelectField field="creddebt" selected="True" />
+            <SelectField field="custid" selected="False" />
+            <SelectField field="debtinc" selected="True" />
+            <SelectField field="default" selected="True" type="V_String" size="19" />
+            <SelectField field="ebill" selected="True" type="V_String" size="19" />
+            <SelectField field="ed" selected="True" />
+            <SelectField field="edcat" selected="True" type="V_String" size="19" />
+            <SelectField field="empcat" selected="True" type="V_String" size="19" />
+            <SelectField field="employ" selected="True" />
+            <SelectField field="equip" selected="True" type="V_String" size="19" />
+            <SelectField field="equipmon" selected="True" />
+            <SelectField field="equipten" selected="True" />
+            <SelectField field="forward" selected="True" type="V_String" size="19" />
+            <SelectField field="gender" selected="True" type="V_String" size="19" />
+            <SelectField field="homeown" selected="True" type="V_String" size="19" />
+            <SelectField field="hometype" selected="True" type="V_String" size="19" />
+            <SelectField field="hourstv" selected="True" />
+            <SelectField field="inccat" selected="True" type="V_String" size="19" />
+            <SelectField field="income" selected="True" />
+            <SelectField field="internet" selected="True" type="V_String" size="19" />
+            <SelectField field="jobcat" selected="True" type="V_String" size="19" />
+            <SelectField field="jobsat" selected="True" type="V_String" size="19" />
+            <SelectField field="lncardmon" selected="True" />
+            <SelectField field="lncardten" selected="True" />
+            <SelectField field="lncreddebt" selected="True" />
+            <SelectField field="lnequipmon" selected="True" />
+            <SelectField field="lnequipten" selected="True" />
+            <SelectField field="lninc" selected="True" />
+            <SelectField field="lnlongmon" selected="True" />
+            <SelectField field="lnlongten" selected="True" />
+            <SelectField field="lnothdebt" selected="True" />
+            <SelectField field="lntollmon" selected="True" />
+            <SelectField field="lntollten" selected="True" />
+            <SelectField field="lnwiremon" selected="True" />
+            <SelectField field="lnwireten" selected="True" />
+            <SelectField field="longmon" selected="True" />
+            <SelectField field="longten" selected="True" />
+            <SelectField field="marital" selected="True" type="V_String" size="19" />
+            <SelectField field="multline" selected="True" type="V_String" size="19" />
+            <SelectField field="news" selected="True" type="V_String" size="19" />
+            <SelectField field="othdebt" selected="True" />
+            <SelectField field="owncd" selected="True" type="V_String" size="19" />
+            <SelectField field="owndvd" selected="True" type="V_String" size="19" />
+            <SelectField field="ownfax" selected="True" type="V_String" size="19" />
+            <SelectField field="owngame" selected="True" type="V_String" size="19" />
+            <SelectField field="ownipod" selected="True" type="V_String" size="19" />
+            <SelectField field="ownpc" selected="True" type="V_String" size="19" />
+            <SelectField field="ownpda" selected="True" type="V_String" size="19" />
+            <SelectField field="owntv" selected="True" type="V_String" size="19" />
+            <SelectField field="ownvcr" selected="True" type="V_String" size="19" />
+            <SelectField field="pager" selected="True" type="V_String" size="19" />
+            <SelectField field="pets" selected="True" />
+            <SelectField field="pets_birds" selected="True" />
+            <SelectField field="pets_cats" selected="True" />
+            <SelectField field="pets_dogs" selected="True" />
+            <SelectField field="pets_freshfish" selected="True" />
+            <SelectField field="pets_reptiles" selected="True" />
+            <SelectField field="pets_saltfish" selected="True" />
+            <SelectField field="pets_small" selected="True" />
+            <SelectField field="polcontrib" selected="True" type="V_String" size="19" />
+            <SelectField field="polparty" selected="True" type="V_String" size="19" />
+            <SelectField field="polview" selected="True" type="V_String" size="19" />
+            <SelectField field="reason" selected="True" type="V_String" size="19" />
+            <SelectField field="region" selected="True" type="V_String" size="19" />
+            <SelectField field="reside" selected="True" />
+            <SelectField field="response_01" selected="True" type="V_String" size="19" />
+            <SelectField field="response_02" selected="True" type="V_String" size="19" />
+            <SelectField field="response_03" selected="True" type="V_String" size="19" />
+            <SelectField field="retire" selected="True" type="V_String" size="19" />
+            <SelectField field="spoused" selected="True" />
+            <SelectField field="spousedcat" selected="True" type="V_String" size="19" />
+            <SelectField field="telecommute" selected="True" type="V_String" size="19" />
+            <SelectField field="tenure" selected="True" />
+            <SelectField field="tollfree" selected="True" type="V_String" size="19" />
+            <SelectField field="tollmon" selected="True" />
+            <SelectField field="tollten" selected="True" />
+            <SelectField field="total_spend" selected="True" />
+            <SelectField field="townsize" selected="True" type="V_String" size="19" />
+            <SelectField field="union" selected="True" type="V_String" size="19" />
+            <SelectField field="voice" selected="True" type="V_String" size="19" />
+            <SelectField field="vote" selected="True" type="V_String" size="19" />
+            <SelectField field="wireless" selected="True" type="V_String" size="19" />
+            <SelectField field="wiremon" selected="True" />
+            <SelectField field="wireten" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
+        <Position x="330" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields orderChanged="False">
+            <Field name="age" />
+            <Field name="card2spent" />
+            <Field name="cardmon" />
+            <Field name="cardspent" />
+            <Field name="cardten" />
+            <Field name="carvalue" />
+            <Field name="commutetime" />
+            <Field name="creddebt" />
+            <Field name="debtinc" />
+            <Field name="ed" />
+            <Field name="employ" />
+            <Field name="equipmon" />
+            <Field name="equipten" />
+            <Field name="hourstv" />
+            <Field name="income" />
+            <Field name="lncardmon" />
+            <Field name="lncardten" />
+            <Field name="lncreddebt" />
+            <Field name="lnequipmon" />
+            <Field name="lnequipten" />
+            <Field name="lninc" />
+            <Field name="lnlongmon" />
+            <Field name="lnlongten" />
+            <Field name="lnothdebt" />
+            <Field name="lntollmon" />
+            <Field name="lntollten" />
+            <Field name="lnwiremon" />
+            <Field name="lnwireten" />
+            <Field name="longmon" />
+            <Field name="longten" />
+            <Field name="othdebt" />
+            <Field name="pets" />
+            <Field name="pets_birds" />
+            <Field name="pets_cats" />
+            <Field name="pets_dogs" />
+            <Field name="pets_freshfish" />
+            <Field name="pets_reptiles" />
+            <Field name="pets_saltfish" />
+            <Field name="pets_small" />
+            <Field name="reside" />
+            <Field name="spoused" />
+            <Field name="tenure" />
+            <Field name="tollmon" />
+            <Field name="tollten" />
+            <Field name="total_spend" />
+            <Field name="wiremon" />
+            <Field name="wireten" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Covariance value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxPearsonCorrelation" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="426" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_5916_1bd786d721d84dfcad745590639789e9_\Engine_5480_294f3686af934a9bbe3ee6803004b690_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="726" y="102" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="birthmonth" selected="False" />
+            <SelectField field="creddebt" selected="False" />
+            <SelectField field="income" selected="False" />
+            <SelectField field="lncardmon" selected="False" />
+            <SelectField field="lncardten" selected="False" />
+            <SelectField field="lnequipmon" selected="False" />
+            <SelectField field="lnequipten" selected="False" />
+            <SelectField field="lntollmon" selected="False" />
+            <SelectField field="lntollten" selected="False" />
+            <SelectField field="lnwiremon" selected="False" />
+            <SelectField field="lnwireten" selected="False" />
+            <SelectField field="owntv" selected="False" />
+            <SelectField field="ownvcr" selected="False" />
+            <SelectField field="pets_freshfish" selected="False" />
+            <SelectField field="pets_saltfish" selected="False" />
+            <SelectField field="pets_small" selected="False" />
+            <SelectField field="total_spend" selected="False" />
+            <SelectField field="wiremon" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="606" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="LOG([total_spend])" field="ln_cardspent" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[ln_cardspent = LOG([total_spend])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="810" y="90" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File FileFormat="19" MaxRecords="">C:\Users\abhis\Downloads\Portfolio\cleaned_data_credit.yxdb</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <NoSpatialIndex>False</NoSpatialIndex>
+            <SaveSource>True</SaveSource>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cleaned_data_credit.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Interactive" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Correlation Matrix" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="8" Connection="Data Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="2" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Credit Card Predictors_Cleaned_data</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

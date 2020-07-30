@@ -1,0 +1,859 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.1">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" FileFormat="19" SearchSubDirs="False" RecordLimit="">C:\Users\abhis\Downloads\Portfolio\cleaned_data_credit.yxdb</File>
+          <FormatSpecificOptions />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>cleaned_data_credit.yxdb</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="active" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="address" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="addresscat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="age" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="agecat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="bfast" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="callcard" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="callid" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="callwait" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="carbought" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="carbuy" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_WString" />
+            <Field name="carcatvalue" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="card" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="card2" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="card2benefit" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="card2fee" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="card2spent" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="card2tenure" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="card2tenurecat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="card2type" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="cardbenefit" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="cardfee" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="cardmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardspent" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="cardtenure" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="cardtenurecat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="cardtype" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="carown" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="cars" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="cartype" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="carvalue" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="churn" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commute" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutebike" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutebus" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutecar" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutecarpool" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutecat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutemotorcycle" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutenonmotor" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutepublic" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commuterail" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="commutetime" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="commutewalk" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="confer" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="debtinc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="default" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ebill" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ed" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="edcat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="empcat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="employ" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equip" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="equipmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="equipten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="forward" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="gender" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="homeown" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="hometype" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="hourstv" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="inccat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="internet" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="jobcat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="jobsat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="lncreddebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lninc" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnlongmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnlongten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="lnothdebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="longmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="longten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="marital" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="multline" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="news" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="othdebt" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="owncd" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="owndvd" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ownfax" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="owngame" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ownipod" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ownpc" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="ownpda" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="pager" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="pets" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_birds" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_cats" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_dogs" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="pets_reptiles" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="polcontrib" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="polparty" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="polview" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="reason" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="region" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="reside" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="response_01" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="response_02" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="response_03" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="retire" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="spoused" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="spousedcat" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="telecommute" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="tenure" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollfree" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="tollmon" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="tollten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="townsize" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="union" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="voice" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="vote" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="wireless" size="19" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="V_String" />
+            <Field name="wireten" source="File: C:\Users\abhis\Downloads\Portfolio\Data Set.xlsx|||`customer_dbase$`" type="Double" />
+            <Field name="ln_cardspent" source="Formula: LOG([total_spend])" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="Linear_Regression">
+        <Position x="498" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Customize</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="standardize_pred">True</Value>
+          <Value name="internal_cv">True</Value>
+          <Value name="display_graphs">True</Value>
+          <Value name="set_seed_internal_cv">True</Value>
+          <Value name="set_seed_external_cv">True</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Linear_Regression_step1</Value>
+          <Value name="Y Var">total_spent</Value>
+          <Value name="X Vars">active,address,addresscat,age,agecat,bfast,callcard,callid,callwait,carbought,carbuy,carcatvalue,card,card2,card2benefit,card2fee,card2tenure,card2tenurecat,card2type,cardbenefit,cardfee,cardmon,cardten,cardtenure,cardtenurecat,cardtype,carown,cars,cartype,carvalue,churn,commute,commutebike,commutebus,commutecar,commutecarpool,commutecat,commutemotorcycle,commutenonmotor,commutepublic,commuterail,commutetime,commutewalk,confer,debtinc,default,ebill,ed,edcat,empcat,employ,equip,equipmon,equipten,forward,gender,homeown,hometype,hourstv,inccat,internet,jobcat,jobsat,lncreddebt,lninc,lnlongmon,lnlongten,lnothdebt,longmon,longten,marital,multline,news,othdebt,owncd,owndvd,ownfax,owngame,ownipod,ownpc,ownpda,pager,pets,pets_birds,pets_cats,pets_dogs,pets_reptiles,polcontrib,polparty,polview,reason,region,reside,response_01,response_02,response_03,retire,spoused,spousedcat,telecommute,tenure,tollfree,tollmon,tollten,townsize,union,voice,vote,wireless,wireten</Value>
+          <Value name="Omit Constant">False</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Linear_Regression_step1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Linear_Regression/Supporting_Macros/Linear_Regression.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings>
+        <Position x="402" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">70</Value>
+          <Value name="validation pct">30</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings>
+        <Position x="594" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="New Model" />
+          <Value name="both">True</Value>
+          <Value name="backward">False</Value>
+          <Value name="AIC">True</Value>
+          <Value name="BIC">False</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Stepwise.yxmc" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="762" y="42" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_ea0e4c015d8748a9be1bb8984c3b4d01_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="Decision_Tree">
+        <Position x="498" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Customize</Value>
+          <Value name="curTab">crossvalidation</Value>
+          <Value name="curToggle">toggle-hyperparameters</Value>
+          <Value name="display.static">True</Value>
+          <Value name="set_seed_cv">True</Value>
+          <Value name="showClassificationCV">False</Value>
+          <Value name="showWhenTreePlotAvailable">True</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="usesurrogate.0">True</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">False</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="model_type">auto</Value>
+          <Value name="auto">True</Value>
+          <Value name="classification">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="tree_summary">Counts</Value>
+          <Value name="Counts">True</Value>
+          <Value name="Proportions">False</Value>
+          <Value name="tree_plot_size">tree.inches</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="pruning_plot_size">prune.inches</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="Model Name">Decision_Tree_credit</Value>
+          <Value name="Y Var">total_spent</Value>
+          <Value name="X Vars">active,address,addresscat,age,agecat,bfast,callcard,callid,callwait,carbought,carbuy,carcatvalue,card,card2,card2benefit,card2fee,card2tenure,card2tenurecat,card2type,cardbenefit,cardfee,cardmon,cardten,cardtenure,cardtenurecat,cardtype,carown,cars,cartype,carvalue,churn,commute,commutebike,commutebus,commutecar,commutecarpool,commutecat,commutemotorcycle,commutenonmotor,commutepublic,commuterail,commutetime,commutewalk,confer,debtinc,default,ebill,ed,edcat,empcat,employ,equip,equipmon,equipten,forward,gender,homeown,hometype,hourstv,inccat,internet,jobcat,jobsat,lncreddebt,lninc,lnlongmon,lnlongten,lnothdebt,longmon,longten,marital,multline,news,othdebt,owncd,owndvd,ownfax,owngame,ownipod,ownpc,ownpda,pager,pets,pets_birds,pets_cats,pets_dogs,pets_reptiles,polcontrib,polparty,polview,reason,region,reside,response_01,response_02,response_03,retire,spoused,spousedcat,telecommute,tenure,tollfree,tollmon,tollten,townsize,union,voice,vote,wireless,wireten</Value>
+          <Value name="model.algorithm">rpart</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights" />
+          <Value name="splitting_criteria">use.gini</Value>
+          <Value name="surrogate_use">usesurrogate.0</Value>
+          <Value name="surrogate_split_criteria">total.correct</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">
+          </Value>
+          <Value name="set_cp">False</Value>
+          <Value name="cp">0</Value>
+          <Value name="rules">False</Value>
+          <Value name="bands_check">False</Value>
+          <Value name="bands">10</Value>
+          <Value name="subset">False</Value>
+          <Value name="winnow">False</Value>
+          <Value name="GlobalPruning">False</Value>
+          <Value name="fuzzyThreshold">False</Value>
+          <Value name="earlyStopping">False</Value>
+          <Value name="trials">1</Value>
+          <Value name="CF">0.25</Value>
+          <Value name="minCases">2</Value>
+          <Value name="sample">0</Value>
+          <Value name="seed">1</Value>
+          <Value name="use_cv">True</Value>
+          <Value name="numberFolds">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="stratified">False</Value>
+          <Value name="cv_seed">1</Value>
+          <Value name="tree.plot">False</Value>
+          <Value name="Branch Dist">False</Value>
+          <Value name="tree.in.w">5.5</Value>
+          <Value name="tree.in.h">5.5</Value>
+          <Value name="tree.cm.w">13</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">False</Value>
+          <Value name="prune.in.w">5.5</Value>
+          <Value name="prune.in.h">5.5</Value>
+          <Value name="prune.cm.w">13</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Decision_Tree_credit</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings>
+        <Position x="918" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="target.level" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="predictions">
+          <RecordInfo>
+            <Field name="Actual" source="R-DATA:" type="Double" />
+            <Field name="X" source="R-DATA:" type="Double" />
+            <Field name="Decision_Tree_credit" source="R-DATA:" type="Double" />
+            <Field name="Boosted_credit" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="error_measures">
+          <RecordInfo>
+            <Field name="Model" size="1073741823" source="R-DATA:" type="V_WString" />
+            <Field name="Correlation" source="R-DATA:" type="Double" />
+            <Field name="RMSE" source="R-DATA:" type="Double" />
+            <Field name="MAE" source="R-DATA:" type="Double" />
+            <Field name="MPE" source="R-DATA:" type="Double" />
+            <Field name="MAPE" source="R-DATA:" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Report">
+          <RecordInfo>
+            <Field name="Group" size="64" source="Formula: (Multiple Sources)" type="V_String" />
+            <Field name="Layout" size="2147483647" source="Report:Layout:" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Model Comparison.yxmc" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="774" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings>
+        <Position x="498" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="model.name">Boosted_credit</Value>
+          <Value name="select.target">total_spent</Value>
+          <Value name="select.predictors">active=True,address=True,addresscat=True,age=True,agecat=True,bfast=True,callcard=True,callid=True,callwait=True,carbought=True,carbuy=True,carcatvalue=True,card=True,card2=True,card2benefit=True,card2fee=True,card2tenure=True,card2tenurecat=True,card2type=True,cardbenefit=True,cardfee=True,cardmon=True,cardten=True,cardtenure=True,cardtenurecat=True,cardtype=True,carown=True,cars=True,cartype=True,carvalue=True,churn=True,commute=True,commutebike=True,commutebus=True,commutecar=True,commutecarpool=True,commutecat=True,commutemotorcycle=True,commutenonmotor=True,commutepublic=True,commuterail=True,commutetime=True,commutewalk=True,confer=True,debtinc=True,default=True,ebill=True,ed=True,edcat=True,empcat=True,employ=True,equip=True,equipmon=True,equipten=True,forward=True,gender=True,homeown=True,hometype=True,hourstv=True,inccat=True,internet=True,jobcat=True,jobsat=True,lncreddebt=True,lninc=True,lnlongmon=True,lnlongten=True,lnothdebt=True,longmon=True,longten=True,marital=True,multline=True,news=True,othdebt=True,owncd=True,owndvd=True,ownfax=True,owngame=True,ownipod=True,ownpc=True,ownpda=True,pager=True,pets=True,pets_birds=True,pets_cats=True,pets_dogs=True,pets_reptiles=True,polcontrib=True,polparty=True,polview=True,reason=True,region=True,reside=True,response_01=True,response_02=True,response_03=True,retire=True,spoused=True,spousedcat=True,telecommute=True,tenure=True,tollfree=True,tollmon=True,tollten=True,townsize=True,union=True,voice=True,vote=True,wireless=True,wireten=True,total_spent=False</Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights">age</Value>
+          <Value name="marginal.plots">False</Value>
+          <Value name="plot.min.importance">2.5</Value>
+          <Value name="type.distribution">False</Value>
+          <Value name="type.continuous">True</Value>
+          <Value name="dist.gaussian">True</Value>
+          <Value name="dist.laplace">False</Value>
+          <Value name="dist.t">False</Value>
+          <Value name="t.df">4</Value>
+          <Value name="type.count">False</Value>
+          <Value name="type.binomial">False</Value>
+          <Value name="dist.bernoulli">True</Value>
+          <Value name="dist.adaboost">False</Value>
+          <Value name="type.multinomial">False</Value>
+          <Value name="n.trees">4000</Value>
+          <Value name="assess.cv">True</Value>
+          <Value name="num.folds">2</Value>
+          <Value name="n.cores">1</Value>
+          <Value name="assess.test">False</Value>
+          <Value name="train.fraction">50.0</Value>
+          <Value name="assess.oob">False</Value>
+          <Value name="bag.fraction">50.0</Value>
+          <Value name="shrinkage">0.0020</Value>
+          <Value name="interaction.depth">1</Value>
+          <Value name="n.minobsinnode">10</Value>
+          <Value name="rand.seed">1</Value>
+          <Value name="inches">True</Value>
+          <Value name="in.w">5.50</Value>
+          <Value name="in.h">5.50</Value>
+          <Value name="centimeters">False</Value>
+          <Value name="cm.w">13.00</Value>
+          <Value name="cm.h">14.95</Value>
+          <Value name="graph.resolution">1x</Value>
+          <Value name="pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Boosted_Model.yxmc" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_4d725ccff0004ff39f2d1c4ddb1bb495_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="630" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_c04d717479294f979a6624bf599e2e5d_.yxdb</TempFile>
+          <Layout>
+            <View1>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_c2eb58d25aae4399903e12bae1a67654_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="162" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_219f1dc194a14db0b0bfc3b7c69420c7_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="366" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_9fa81cb4539042c6b519f6686522fcf9_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1014" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_e75bed5255684f6a9a7d0d078929fc6d_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="1014" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\abhis\AppData\Local\Temp\Engine_16140_1fa689d686024ef0bd0cef2fb8f00951_\Engine_7060_37a9a856c95e43ab9869afecbd2978e7_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings>
+        <Position x="114" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="List Box (11)">"active","address","addresscat","age","agecat","bfast","callcard","callid","callwait","carbought","carbuy","carcatvalue","card","card2","card2benefit","card2fee","card2spent","card2tenure","card2tenurecat","card2type","cardbenefit","cardfee","cardmon","cardspent","cardten","cardtenure","cardtenurecat","cardtype","carown","cars","cartype","carvalue","churn","commute","commutebike","commutebus","commutecar","commutecarpool","commutecat","commutemotorcycle","commutenonmotor","commutepublic","commuterail","commutetime","commutewalk","confer","debtinc","default","ebill","ed","edcat","empcat","employ","equip","equipmon","equipten","forward","gender","homeown","hometype","hourstv","inccat","internet","jobcat","jobsat","lncreddebt","lninc","lnlongmon","lnlongten","lnothdebt","longmon","longten","marital","multline","news","othdebt","owncd","owndvd","ownfax","owngame","ownipod","ownpc","ownpda","pager","pets","pets_birds","pets_cats","pets_dogs","pets_reptiles","polcontrib","polparty","polview","reason","region","reside","response_01","response_02","response_03","retire","spoused","spousedcat","telecommute","tenure","tollfree","tollmon","tollten","townsize","union","voice","vote","wireless","wireten","ln_cardspent"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="306" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="card2spent" selected="False" />
+            <SelectField field="cardspent" selected="False" />
+            <SelectField field="ln_cardspent" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="210" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="EXP([ln_cardspent])" field="total_spent" size="8" type="Double" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[total_spent = EXP([ln_cardspent])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="20" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="5" Connection="Right Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="5" Connection="Left Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Reports" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Interactive Report" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Estimation" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Validation" />
+      <Destination ToolID="8" Connection="Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="9" Connection="Output" />
+      <Destination ToolID="8" Connection="Models" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Reports" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Interactive" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Report" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="predictions" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Report" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output26" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CreditCardFinal</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
